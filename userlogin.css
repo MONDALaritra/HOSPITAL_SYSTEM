@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body{
+		background: url("Image/family3.jpg");
+		background-position-x: top;
+		background-position-y: -15%;
+   		background-size: 100%;
+   		background-repeat: no-repeat;
+   
+	}
+
+    .container{
+		position:absolute;
+		top:25%;
+		left:20%;
+		background-color:aliceblue;
+		width:350px;
+        padding:40px 50px;
+        border-radius: 20px;
+        box-shadow: 5px 0 8px 7px rgba(0,0,0,0.5);
+        height:320px;
+	}
+
+    input{
+        width:100%;
+        height:30px;
+        margin-bottom:10px;
+        border:none;
+        padding:10px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+    #signin{
+        margin-left:35%;
+        background:#3269a8;
+        color:white;
+        font-size: 16px;
+        padding:10px;
+        border-radius: 10px;
+        border:none;
+        outline:none;
+        width:120px;
+        cursor: pointer;
+    }
+    p{
+        margin-left:40%;
+        font-size: 16px;
+    }
+    a{
+        text-decoration: none;
+    }
+    #mail{
+        position: absolute;
+        left:85%;
+        top:35%;
+        font-size: 18px;
+        color:#3269a8;
+    }
+    #eye{
+        position: absolute;
+        left:85%;
+        top:50%;
+        font-size: 18px;
+        color:#3269a8;
+    }
